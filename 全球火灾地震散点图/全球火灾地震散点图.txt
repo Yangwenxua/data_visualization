@@ -1,0 +1,16 @@
+1.csv格式文件--逗号分割值文件--用来存储表格数据--可用来绘制散点图
+2.geojson格式文件--用于表示地理数据的JSON格式--可用来绘制散点图
+3.换行符：windows--\r\n     linux--\r
+4.散点图：用来表示两个变量之间的关系--在坐标平面上绘制点来表示数据点
+5.geoplot：一个高级的Python地理空间绘图库，它扩展了cartopy和matplotlib的功能，使得地理空间数据的可视化变得更加容易
+6.numpy--数据计算库   pandas--数据分析库
+pip install geoplot numpy pandas geopandas matplotlib ---
+
+7.使用geoplot（世界地图）、numpy、pandas来绘制火灾和地震散点图：读取文件-->转换数据-->利用数据绘制散点图
+1）绘制地震散点图-->1
+4）使用geoplot改成世界地图-->改成功了，但没有成功使用geoplot--
+3）改成numpy、pandas-->改后变灰色--
+5）加上火灾-->1
+6）优化图和代码--1
+7）悬停显示时间和城市：
+8）修改悬停效果
