@@ -7,9 +7,9 @@ import pandas as pd
 import mplcursors  # 导入 mplcursors
 
 # 定义文件路径
-world_path = r"D:\python课程\data_visualization\全球火灾地震散点图\data\Natural Earth 数据集\ne_110m_admin_0_countries\ne_110m_admin_0_countries.shp"
-eq_path = r"D:\python课程\data_visualization\全球火灾地震散点图\data\eq_data\eq_data_7_day_m1.geojson"
-fire_path = r"D:\python课程\data_visualization\全球火灾地震散点图\data\eq_data\world_fires_1_day.csv"
+world_path = r"D:\python课程\data_visualization\下载数据\data\Natural Earth 数据集\ne_110m_admin_0_countries\ne_110m_admin_0_countries.shp"
+eq_path = r"D:\python课程\data_visualization\下载数据\data\eq_data\eq_data_7_day_m1.geojson"
+fire_path = r"D:\python课程\data_visualization\下载数据\data\eq_data\world_fires_1_day.csv"
 
 def setup_chinese_font():
     font = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=14)

@@ -14,3 +14,19 @@ pip install geoplot numpy pandas geopandas matplotlib ---
 6）优化图和代码--1
 7）悬停显示时间和城市：
 8）修改悬停效果
+
+
+
+推送到远程仓库：
+1.切换到自己想要保存远程仓库的目录下并打开终端
+2. 克隆远程仓库到本地：git clone https://github.com/Yangwenxua/data_visualization
+3.组长在远程main分支下创建好我的分支：lxw
+4. git checkout -b lxw
+5. git add .
+6. git commit -m "提交说明"
+7. git remote -v
+8. git push -u origin lxw
+
+git rm readme.md  --删除当前分支下的指定文件（本地）
+git commit -m "提交说明" 
+git push origin lxw
