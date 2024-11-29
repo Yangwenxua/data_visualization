@@ -34,3 +34,4 @@ languages = ['javascript', 'ruby', 'c', 'java', 'perl', 'haskell', 'go']
 for language in languages:
     get_popular_repos(language)
     print("\n" + "="*50 + "\n")  # 添加分隔线
+    
