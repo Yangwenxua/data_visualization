@@ -50,7 +50,7 @@ fig.update_layout(
     xaxis_title='语言',
     yaxis_title='星标数',
     plot_bgcolor='white',
-    hoverlabel=dict(bgcolor="white", font_size=16, font_family="Rockwell")  # 调整悬停标签的背景色、字体大小和字体类型
+    hoverlabel=dict(bgcolor="white", font_size=14, font_family="Rockwell")  # 调整悬停标签的背景色、字体大小和字体类型
 )
 
 # 调整条形的宽度和边框
@@ -58,3 +58,4 @@ fig.update_traces(marker_line_width=0.5)  # 设置条形边框的宽度
 
 # 显示图表
 fig.show()
+
